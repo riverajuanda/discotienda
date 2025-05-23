@@ -69,7 +69,7 @@ class artista extends basedatos
         $res = $this->cargarRegistro();
         $this->desconectar();
         $this->nombre = $res["nombre"];
-        $this->genero = $res["genero"];
+        $this->generoID = $res["genero"];
     }
 
     public function eliminar()    {
